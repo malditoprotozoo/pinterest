@@ -1,0 +1,134 @@
+body {
+	margin: 0;
+}
+
+/* Fixed will make header stay always at the same place */
+
+header {
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
+}
+
+#first-menu {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+span.icon-pinterest {
+	color: #BD081C;
+	font-size: 38px;
+	margin-left: 75px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+#search-bar {
+	display: inline-block;
+	width: 70%;
+
+}
+
+.icon-search {
+	position: absolute;
+	font-size: 25px;
+	color: #b5b5b5;
+	margin-top: 0.5%;
+	margin-left: 0.5%;
+}
+
+.icon-close {
+	margin-top: 1%;
+	margin-left: -10%;
+}
+
+input ~ span {
+	position: absolute;
+	font-size: 16px;
+	color: #000;
+	margin-top: 0.8%;
+	margin-left: -8%;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+	
+}
+
+.icon-chevron-down {
+	margin-top: 1%;
+	margin-left: -4%;
+}
+
+/* Padding will allows to make space to the icon-search */
+
+input {
+	width: 95%;
+	background-color: #EFEFEF;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-weight: 900;
+	vertical-align: middle;
+	padding: 1px 0px;
+	border-radius: 4px;
+	border: 0;
+	cursor: pointer;
+	line-height: normal;
+	height: 40px;
+	padding-left: 40px;
+}
+
+#icons {
+	display: inline-block;
+	width: 15%;
+	vertical-align: middle;	
+}
+
+.icon-user, .icon-bars, .icon-commenting {
+	color: #B5B5B5;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: middle;
+	float: left;
+}
+
+section {
+	padding-top: 180px;
+}
+
+figure img {
+	border-radius: 5%;
+	max-width: 300px;
+	float: left;
+	margin: 10px;
+}
+
+#second-menu a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#second-menu ul {
+	list-style: none;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#second-menu li {
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline-block;
+	height: 60px;
+	border-radius: 6px;
+	line-height: 63px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	font-weight: 900;
+	background-image: url("../img/steven-universe.jpg");
+	box-shadow: inset 0 0 0 1000px rgba(255,0,0,0.3);
+}
