@@ -159,7 +159,13 @@ img {
 }
 
 
-
+/*When the screen is 800px, section will have more margin top, so people can see the images */
 @media screen and (max-width: 800px) {
+
+	section {
+	column-count: 4;
+    column-gap: 1em;
+    margin-top: 400px;
+}
 
 }
