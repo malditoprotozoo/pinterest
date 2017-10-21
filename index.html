@@ -1,82 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+	<!--[if lte IE 9]>
+	<script src="masonry.pkgd.min.js"></script>
+	<![endif]-->
 	<title>Pinterest</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fonts/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<div id="first-menu">
-			<span class="icon-pinterest"></span>
+	<div id="container">
+		<header>
+			<div id="first-menu">
+			<a href="#"><span class="icon-pinterest"></span></a>
 			<div id="search-bar">
 				<span class="icon-search"></span>
-				<input type="text" placeholder="Search">
-				<span class="icon-close"></span>
-				<span>All pins</span>
-				<span class="icon-chevron-down"></span>
+				<input type="text" id="search" placeholder="Search">
+				<div id="icons-1">
+					<span class="icon-close"></span>
+					<span id="text-bar">All pins</span>
+					<span class="icon-chevron-down"></span>
+				</div>
 			</div>
-			<div id="icons">
+			<div id="icons-2">
 				<p class="icon-user"></p>
 				<p class="icon-bars"></p>
 				<p class="icon-commenting"></p>
 			</div>
+		</header>
+		<div id="tags">
+			<div id="second-menu">
+				<ul>
+					<li><a href="#">Fusion</a></li>
+					<li><a href="#">Fanart</a></li>
+					<li><a href="#">Theories</a></li>
+					<li><a href="#">Ships</a></li>
+					<li><a href="#">Background</a></li>
+				</ul>
 		</div>
-		<div id="second-menu">
-			<ul>
-				<li><a href="#">Fusion</a></li>
-				<li><a href="#">Fanart</a></li>
-				<li><a href="#">Theories</a></li>
-				<li><a href="#">Ships</a></li>
-				<li><a href="#">Background</a></li>
-			</ul>
 		</div>
-	</header>
-
-	<section>
-		<figure>
-			<img src="img/su-stuff.jpg" alt="">
-			<p><span>Lorem Ipsum</span> lasjdaksjdalksjda</p>
-		</figure>
-		<figure>
-			<img src="img/diamonds.jpg" alt="">
-			<p><span>Lorem Ipsum</span> lasjdaksjdalksjda</p>
-		</figure>
-		<figure>
+		<section>
 			<img src="img/garnet.jpg" alt="">
-		</figure>
-		<figure>
 			<img src="img/crystal-gems.gif" alt="">
-		</figure>
-		<figure>
 			<img src="img/lion-and-lars.jpg" alt="">
-		</figure>
-		<figure>
+			<img src="img/diamonds.jpg" alt="">
 			<img src="img/su-connie-lion-pink.jpg" alt="">
-		</figure>
-		<figure>
+			<img src="img/su-stuff.jpg" alt="">
 			<img src="img/temple-fusion.jpg" alt="">
-		</figure>
-		<figure>
 			<img src="img/su-beach.jpg" alt="">
-		</figure>
-		<figure>
 			<img src="img/temple.jpg" alt="">
-		</figure>
-		<figure>
+			<img src="img/fussions.jpg" alt="">
 			<img src="img/crystal-gems-fusion.gif" alt="">
-		</figure>
-		<figure>
-			<img src="img/diamonds-surprise.jpg" alt="">
-		</figure>
-		<figure>
-			<img src="img/peridot-bathroom.gif" alt="">
-		</figure>
-	</section>
-
-	
+		</section>
+	</div>
 </body>
 </html>
